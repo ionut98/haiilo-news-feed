@@ -1,0 +1,36 @@
+html, body {
+  background-color: #fff;
+}
+
+.cat-fill-width {
+  inline-size: 100%;
+}
+
+.post-card {
+  inline-size: 640px;
+  min-block-size: 400px;
+}
+
+.post-thumbnail {
+  inline-size: 100%;
+}
+
+.read-more {
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
+}
+
+.read-more:hover {
+  text-decoration: none;
+  color: #1C8193;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .post-card {
+    inline-size: 480px;
+  }
+
+}
